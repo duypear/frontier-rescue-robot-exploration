@@ -1,0 +1,1001 @@
+{
+  "summary": {
+    "n_maps": 30,
+    "elapsed_sec": 332.8,
+    "win_rate_distance_vs_nearest": "23/30 (76.7%)",
+    "win_rate_turns_vs_nearest": "26/30 (86.7%)",
+    "mean_distance_saving_pct": 8.02,
+    "std_distance_saving_pct": 14.5,
+    "paired_ttest_t": 3.4634,
+    "paired_ttest_p": 0.0016783319852008846,
+    "wilcoxon_p": 0.0032229889184236526,
+    "algorithms": {
+      "random": {
+        "coverage_mean_std": "63.3 ± 11.7",
+        "distance_mean_std": "184.8 ± 4.5",
+        "sharp_turns_mean_std": "25.5 ± 4.0",
+        "ee_mean_std": "1.79 ± 0.32",
+        "all_3_victims_rate": "5/30 (16.7%)",
+        "all_victims_step_mean": 237.2
+      },
+      "nearest": {
+        "coverage_mean_std": "98.7 ± 0.3",
+        "distance_mean_std": "119.5 ± 15.2",
+        "sharp_turns_mean_std": "4.3 ± 1.9",
+        "ee_mean_std": "4.39 ± 0.57",
+        "all_3_victims_rate": "30/30 (100.0%)",
+        "all_victims_step_mean": 140.2
+      },
+      "utility": {
+        "coverage_mean_std": "98.7 ± 0.1",
+        "distance_mean_std": "108.7 ± 14.0",
+        "sharp_turns_mean_std": "2.3 ± 1.2",
+        "ee_mean_std": "4.83 ± 0.66",
+        "all_3_victims_rate": "29/30 (96.7%)",
+        "all_victims_step_mean": 129.7
+      }
+    }
+  },
+  "per_map": [
+    {
+      "map_id": 1,
+      "seed": 1001,
+      "random": {
+        "coverage_pct": 64.16,
+        "distance_m": 187.13,
+        "steps": 320,
+        "sharp_turns": 22,
+        "ee_m2_per_m": 1.79,
+        "victims_found": 1,
+        "all_victims_step": null
+      },
+      "nearest": {
+        "coverage_pct": 99.09,
+        "distance_m": 136.99,
+        "steps": 228,
+        "sharp_turns": 5,
+        "ee_m2_per_m": 3.77,
+        "victims_found": 3,
+        "all_victims_step": 142
+      },
+      "utility": {
+        "coverage_pct": 98.75,
+        "distance_m": 98.0,
+        "steps": 167,
+        "sharp_turns": 4,
+        "ee_m2_per_m": 5.25,
+        "victims_found": 3,
+        "all_victims_step": 121
+      },
+      "distance_saving_vs_nearest_pct": 28.46
+    },
+    {
+      "map_id": 2,
+      "seed": 1002,
+      "random": {
+        "coverage_pct": 77.8,
+        "distance_m": 195.21,
+        "steps": 320,
+        "sharp_turns": 25,
+        "ee_m2_per_m": 2.08,
+        "victims_found": 2,
+        "all_victims_step": null
+      },
+      "nearest": {
+        "coverage_pct": 98.52,
+        "distance_m": 114.86,
+        "steps": 197,
+        "sharp_turns": 7,
+        "ee_m2_per_m": 4.48,
+        "victims_found": 3,
+        "all_victims_step": 127
+      },
+      "utility": {
+        "coverage_pct": 98.71,
+        "distance_m": 105.69,
+        "steps": 177,
+        "sharp_turns": 2,
+        "ee_m2_per_m": 4.88,
+        "victims_found": 3,
+        "all_victims_step": 104
+      },
+      "distance_saving_vs_nearest_pct": 7.98
+    },
+    {
+      "map_id": 3,
+      "seed": 1003,
+      "random": {
+        "coverage_pct": 67.88,
+        "distance_m": 184.23,
+        "steps": 320,
+        "sharp_turns": 25,
+        "ee_m2_per_m": 1.94,
+        "victims_found": 2,
+        "all_victims_step": null
+      },
+      "nearest": {
+        "coverage_pct": 98.86,
+        "distance_m": 97.31,
+        "steps": 171,
+        "sharp_turns": 3,
+        "ee_m2_per_m": 5.36,
+        "victims_found": 3,
+        "all_victims_step": 144
+      },
+      "utility": {
+        "coverage_pct": 98.53,
+        "distance_m": 121.31,
+        "steps": 219,
+        "sharp_turns": 3,
+        "ee_m2_per_m": 4.29,
+        "victims_found": 3,
+        "all_victims_step": 87
+      },
+      "distance_saving_vs_nearest_pct": -24.66
+    },
+    {
+      "map_id": 4,
+      "seed": 1004,
+      "random": {
+        "coverage_pct": 87.42,
+        "distance_m": 185.47,
+        "steps": 320,
+        "sharp_turns": 25,
+        "ee_m2_per_m": 2.45,
+        "victims_found": 2,
+        "all_victims_step": null
+      },
+      "nearest": {
+        "coverage_pct": 99.57,
+        "distance_m": 114.86,
+        "steps": 197,
+        "sharp_turns": 4,
+        "ee_m2_per_m": 4.5,
+        "victims_found": 3,
+        "all_victims_step": 197
+      },
+      "utility": {
+        "coverage_pct": 98.7,
+        "distance_m": 95.68,
+        "steps": 169,
+        "sharp_turns": 1,
+        "ee_m2_per_m": 5.35,
+        "victims_found": 3,
+        "all_victims_step": 152
+      },
+      "distance_saving_vs_nearest_pct": 16.7
+    },
+    {
+      "map_id": 5,
+      "seed": 1005,
+      "random": {
+        "coverage_pct": 47.63,
+        "distance_m": 185.89,
+        "steps": 320,
+        "sharp_turns": 25,
+        "ee_m2_per_m": 1.35,
+        "victims_found": 2,
+        "all_victims_step": null
+      },
+      "nearest": {
+        "coverage_pct": 98.91,
+        "distance_m": 120.41,
+        "steps": 211,
+        "sharp_turns": 5,
+        "ee_m2_per_m": 4.33,
+        "victims_found": 3,
+        "all_victims_step": 48
+      },
+      "utility": {
+        "coverage_pct": 98.58,
+        "distance_m": 91.56,
+        "steps": 162,
+        "sharp_turns": 1,
+        "ee_m2_per_m": 5.67,
+        "victims_found": 3,
+        "all_victims_step": 148
+      },
+      "distance_saving_vs_nearest_pct": 23.96
+    },
+    {
+      "map_id": 6,
+      "seed": 1006,
+      "random": {
+        "coverage_pct": 53.72,
+        "distance_m": 181.33,
+        "steps": 320,
+        "sharp_turns": 23,
+        "ee_m2_per_m": 1.54,
+        "victims_found": 1,
+        "all_victims_step": null
+      },
+      "nearest": {
+        "coverage_pct": 98.51,
+        "distance_m": 126.65,
+        "steps": 221,
+        "sharp_turns": 3,
+        "ee_m2_per_m": 4.05,
+        "victims_found": 3,
+        "all_victims_step": 150
+      },
+      "utility": {
+        "coverage_pct": 98.65,
+        "distance_m": 129.14,
+        "steps": 221,
+        "sharp_turns": 4,
+        "ee_m2_per_m": 3.97,
+        "victims_found": 3,
+        "all_victims_step": 140
+      },
+      "distance_saving_vs_nearest_pct": -1.97
+    },
+    {
+      "map_id": 7,
+      "seed": 1007,
+      "random": {
+        "coverage_pct": 68.16,
+        "distance_m": 196.04,
+        "steps": 320,
+        "sharp_turns": 26,
+        "ee_m2_per_m": 1.82,
+        "victims_found": 2,
+        "all_victims_step": null
+      },
+      "nearest": {
+        "coverage_pct": 98.57,
+        "distance_m": 100.38,
+        "steps": 173,
+        "sharp_turns": 5,
+        "ee_m2_per_m": 5.14,
+        "victims_found": 3,
+        "all_victims_step": 100
+      },
+      "utility": {
+        "coverage_pct": 98.71,
+        "distance_m": 92.1,
+        "steps": 161,
+        "sharp_turns": 2,
+        "ee_m2_per_m": 5.61,
+        "victims_found": 3,
+        "all_victims_step": 90
+      },
+      "distance_saving_vs_nearest_pct": 8.25
+    },
+    {
+      "map_id": 8,
+      "seed": 1008,
+      "random": {
+        "coverage_pct": 55.61,
+        "distance_m": 184.85,
+        "steps": 320,
+        "sharp_turns": 28,
+        "ee_m2_per_m": 1.58,
+        "victims_found": 2,
+        "all_victims_step": null
+      },
+      "nearest": {
+        "coverage_pct": 99.14,
+        "distance_m": 142.59,
+        "steps": 245,
+        "sharp_turns": 5,
+        "ee_m2_per_m": 3.64,
+        "victims_found": 3,
+        "all_victims_step": 153
+      },
+      "utility": {
+        "coverage_pct": 98.76,
+        "distance_m": 130.26,
+        "steps": 222,
+        "sharp_turns": 2,
+        "ee_m2_per_m": 3.97,
+        "victims_found": 3,
+        "all_victims_step": 113
+      },
+      "distance_saving_vs_nearest_pct": 8.65
+    },
+    {
+      "map_id": 9,
+      "seed": 1009,
+      "random": {
+        "coverage_pct": 52.73,
+        "distance_m": 186.92,
+        "steps": 320,
+        "sharp_turns": 27,
+        "ee_m2_per_m": 1.5,
+        "victims_found": 3,
+        "all_victims_step": 255
+      },
+      "nearest": {
+        "coverage_pct": 98.73,
+        "distance_m": 103.6,
+        "steps": 184,
+        "sharp_turns": 0,
+        "ee_m2_per_m": 5.07,
+        "victims_found": 3,
+        "all_victims_step": 159
+      },
+      "utility": {
+        "coverage_pct": 98.54,
+        "distance_m": 83.94,
+        "steps": 148,
+        "sharp_turns": 1,
+        "ee_m2_per_m": 6.24,
+        "victims_found": 3,
+        "all_victims_step": 107
+      },
+      "distance_saving_vs_nearest_pct": 18.98
+    },
+    {
+      "map_id": 10,
+      "seed": 1010,
+      "random": {
+        "coverage_pct": 61.34,
+        "distance_m": 184.44,
+        "steps": 320,
+        "sharp_turns": 31,
+        "ee_m2_per_m": 1.75,
+        "victims_found": 1,
+        "all_victims_step": null
+      },
+      "nearest": {
+        "coverage_pct": 98.72,
+        "distance_m": 144.54,
+        "steps": 246,
+        "sharp_turns": 2,
+        "ee_m2_per_m": 3.59,
+        "victims_found": 3,
+        "all_victims_step": 119
+      },
+      "utility": {
+        "coverage_pct": 98.72,
+        "distance_m": 124.28,
+        "steps": 215,
+        "sharp_turns": 4,
+        "ee_m2_per_m": 4.18,
+        "victims_found": 3,
+        "all_victims_step": 121
+      },
+      "distance_saving_vs_nearest_pct": 14.02
+    },
+    {
+      "map_id": 11,
+      "seed": 1011,
+      "random": {
+        "coverage_pct": 68.97,
+        "distance_m": 184.44,
+        "steps": 320,
+        "sharp_turns": 22,
+        "ee_m2_per_m": 1.95,
+        "victims_found": 2,
+        "all_victims_step": null
+      },
+      "nearest": {
+        "coverage_pct": 98.51,
+        "distance_m": 112.98,
+        "steps": 192,
+        "sharp_turns": 4,
+        "ee_m2_per_m": 4.54,
+        "victims_found": 3,
+        "all_victims_step": 138
+      },
+      "utility": {
+        "coverage_pct": 98.8,
+        "distance_m": 106.43,
+        "steps": 188,
+        "sharp_turns": 1,
+        "ee_m2_per_m": 4.83,
+        "victims_found": 3,
+        "all_victims_step": 120
+      },
+      "distance_saving_vs_nearest_pct": 5.8
+    },
+    {
+      "map_id": 12,
+      "seed": 1012,
+      "random": {
+        "coverage_pct": 62.52,
+        "distance_m": 185.27,
+        "steps": 320,
+        "sharp_turns": 25,
+        "ee_m2_per_m": 1.75,
+        "victims_found": 2,
+        "all_victims_step": null
+      },
+      "nearest": {
+        "coverage_pct": 98.7,
+        "distance_m": 114.96,
+        "steps": 203,
+        "sharp_turns": 4,
+        "ee_m2_per_m": 4.46,
+        "victims_found": 3,
+        "all_victims_step": 195
+      },
+      "utility": {
+        "coverage_pct": 98.55,
+        "distance_m": 102.0,
+        "steps": 175,
+        "sharp_turns": 1,
+        "ee_m2_per_m": 5.01,
+        "victims_found": 3,
+        "all_victims_step": 138
+      },
+      "distance_saving_vs_nearest_pct": 11.27
+    },
+    {
+      "map_id": 13,
+      "seed": 1013,
+      "random": {
+        "coverage_pct": 61.07,
+        "distance_m": 181.33,
+        "steps": 320,
+        "sharp_turns": 26,
+        "ee_m2_per_m": 1.73,
+        "victims_found": 1,
+        "all_victims_step": null
+      },
+      "nearest": {
+        "coverage_pct": 98.59,
+        "distance_m": 138.59,
+        "steps": 237,
+        "sharp_turns": 8,
+        "ee_m2_per_m": 3.66,
+        "victims_found": 3,
+        "all_victims_step": 222
+      },
+      "utility": {
+        "coverage_pct": 98.54,
+        "distance_m": 105.41,
+        "steps": 181,
+        "sharp_turns": 2,
+        "ee_m2_per_m": 4.81,
+        "victims_found": 3,
+        "all_victims_step": 175
+      },
+      "distance_saving_vs_nearest_pct": 23.94
+    },
+    {
+      "map_id": 14,
+      "seed": 1014,
+      "random": {
+        "coverage_pct": 57.28,
+        "distance_m": 178.85,
+        "steps": 320,
+        "sharp_turns": 30,
+        "ee_m2_per_m": 1.69,
+        "victims_found": 2,
+        "all_victims_step": null
+      },
+      "nearest": {
+        "coverage_pct": 98.91,
+        "distance_m": 100.15,
+        "steps": 180,
+        "sharp_turns": 1,
+        "ee_m2_per_m": 5.21,
+        "victims_found": 3,
+        "all_victims_step": 93
+      },
+      "utility": {
+        "coverage_pct": 98.72,
+        "distance_m": 81.2,
+        "steps": 145,
+        "sharp_turns": 0,
+        "ee_m2_per_m": 6.41,
+        "victims_found": 2,
+        "all_victims_step": null
+      },
+      "distance_saving_vs_nearest_pct": 18.92
+    },
+    {
+      "map_id": 15,
+      "seed": 1015,
+      "random": {
+        "coverage_pct": 61.73,
+        "distance_m": 179.47,
+        "steps": 320,
+        "sharp_turns": 23,
+        "ee_m2_per_m": 1.79,
+        "victims_found": 2,
+        "all_victims_step": null
+      },
+      "nearest": {
+        "coverage_pct": 98.94,
+        "distance_m": 140.35,
+        "steps": 243,
+        "sharp_turns": 5,
+        "ee_m2_per_m": 3.67,
+        "victims_found": 3,
+        "all_victims_step": 146
+      },
+      "utility": {
+        "coverage_pct": 98.8,
+        "distance_m": 115.55,
+        "steps": 193,
+        "sharp_turns": 3,
+        "ee_m2_per_m": 4.45,
+        "victims_found": 3,
+        "all_victims_step": 190
+      },
+      "distance_saving_vs_nearest_pct": 17.67
+    },
+    {
+      "map_id": 16,
+      "seed": 1016,
+      "random": {
+        "coverage_pct": 43.2,
+        "distance_m": 180.09,
+        "steps": 320,
+        "sharp_turns": 30,
+        "ee_m2_per_m": 1.26,
+        "victims_found": 1,
+        "all_victims_step": null
+      },
+      "nearest": {
+        "coverage_pct": 98.57,
+        "distance_m": 118.15,
+        "steps": 204,
+        "sharp_turns": 5,
+        "ee_m2_per_m": 4.37,
+        "victims_found": 3,
+        "all_victims_step": 131
+      },
+      "utility": {
+        "coverage_pct": 98.81,
+        "distance_m": 103.38,
+        "steps": 179,
+        "sharp_turns": 2,
+        "ee_m2_per_m": 5.01,
+        "victims_found": 3,
+        "all_victims_step": 78
+      },
+      "distance_saving_vs_nearest_pct": 12.5
+    },
+    {
+      "map_id": 17,
+      "seed": 1017,
+      "random": {
+        "coverage_pct": 62.24,
+        "distance_m": 181.33,
+        "steps": 320,
+        "sharp_turns": 27,
+        "ee_m2_per_m": 1.8,
+        "victims_found": 3,
+        "all_victims_step": 203
+      },
+      "nearest": {
+        "coverage_pct": 98.57,
+        "distance_m": 91.01,
+        "steps": 158,
+        "sharp_turns": 3,
+        "ee_m2_per_m": 5.66,
+        "victims_found": 3,
+        "all_victims_step": 143
+      },
+      "utility": {
+        "coverage_pct": 98.76,
+        "distance_m": 113.86,
+        "steps": 195,
+        "sharp_turns": 3,
+        "ee_m2_per_m": 4.54,
+        "victims_found": 3,
+        "all_victims_step": 153
+      },
+      "distance_saving_vs_nearest_pct": -25.11
+    },
+    {
+      "map_id": 18,
+      "seed": 1018,
+      "random": {
+        "coverage_pct": 63.03,
+        "distance_m": 180.71,
+        "steps": 320,
+        "sharp_turns": 21,
+        "ee_m2_per_m": 1.81,
+        "victims_found": 2,
+        "all_victims_step": null
+      },
+      "nearest": {
+        "coverage_pct": 98.61,
+        "distance_m": 123.38,
+        "steps": 207,
+        "sharp_turns": 6,
+        "ee_m2_per_m": 4.16,
+        "victims_found": 3,
+        "all_victims_step": 112
+      },
+      "utility": {
+        "coverage_pct": 98.51,
+        "distance_m": 107.03,
+        "steps": 183,
+        "sharp_turns": 4,
+        "ee_m2_per_m": 4.79,
+        "victims_found": 3,
+        "all_victims_step": 92
+      },
+      "distance_saving_vs_nearest_pct": 13.25
+    },
+    {
+      "map_id": 19,
+      "seed": 1019,
+      "random": {
+        "coverage_pct": 53.4,
+        "distance_m": 194.17,
+        "steps": 320,
+        "sharp_turns": 30,
+        "ee_m2_per_m": 1.44,
+        "victims_found": 1,
+        "all_victims_step": null
+      },
+      "nearest": {
+        "coverage_pct": 99.28,
+        "distance_m": 106.45,
+        "steps": 181,
+        "sharp_turns": 4,
+        "ee_m2_per_m": 4.87,
+        "victims_found": 3,
+        "all_victims_step": 162
+      },
+      "utility": {
+        "coverage_pct": 98.85,
+        "distance_m": 117.62,
+        "steps": 205,
+        "sharp_turns": 2,
+        "ee_m2_per_m": 4.39,
+        "victims_found": 3,
+        "all_victims_step": 137
+      },
+      "distance_saving_vs_nearest_pct": -10.49
+    },
+    {
+      "map_id": 20,
+      "seed": 1020,
+      "random": {
+        "coverage_pct": 82.66,
+        "distance_m": 181.75,
+        "steps": 320,
+        "sharp_turns": 20,
+        "ee_m2_per_m": 2.38,
+        "victims_found": 2,
+        "all_victims_step": null
+      },
+      "nearest": {
+        "coverage_pct": 98.66,
+        "distance_m": 112.62,
+        "steps": 195,
+        "sharp_turns": 5,
+        "ee_m2_per_m": 4.58,
+        "victims_found": 3,
+        "all_victims_step": 161
+      },
+      "utility": {
+        "coverage_pct": 98.57,
+        "distance_m": 108.2,
+        "steps": 187,
+        "sharp_turns": 3,
+        "ee_m2_per_m": 4.77,
+        "victims_found": 3,
+        "all_victims_step": 163
+      },
+      "distance_saving_vs_nearest_pct": 3.92
+    },
+    {
+      "map_id": 21,
+      "seed": 1021,
+      "random": {
+        "coverage_pct": 61.71,
+        "distance_m": 184.02,
+        "steps": 320,
+        "sharp_turns": 25,
+        "ee_m2_per_m": 1.74,
+        "victims_found": 1,
+        "all_victims_step": null
+      },
+      "nearest": {
+        "coverage_pct": 98.51,
+        "distance_m": 108.74,
+        "steps": 186,
+        "sharp_turns": 4,
+        "ee_m2_per_m": 4.7,
+        "victims_found": 3,
+        "all_victims_step": 169
+      },
+      "utility": {
+        "coverage_pct": 98.55,
+        "distance_m": 123.88,
+        "steps": 220,
+        "sharp_turns": 4,
+        "ee_m2_per_m": 4.13,
+        "victims_found": 3,
+        "all_victims_step": 135
+      },
+      "distance_saving_vs_nearest_pct": -13.92
+    },
+    {
+      "map_id": 22,
+      "seed": 1022,
+      "random": {
+        "coverage_pct": 64.88,
+        "distance_m": 178.23,
+        "steps": 320,
+        "sharp_turns": 38,
+        "ee_m2_per_m": 1.9,
+        "victims_found": 2,
+        "all_victims_step": null
+      },
+      "nearest": {
+        "coverage_pct": 98.9,
+        "distance_m": 142.8,
+        "steps": 245,
+        "sharp_turns": 5,
+        "ee_m2_per_m": 3.61,
+        "victims_found": 3,
+        "all_victims_step": 175
+      },
+      "utility": {
+        "coverage_pct": 98.9,
+        "distance_m": 108.72,
+        "steps": 193,
+        "sharp_turns": 3,
+        "ee_m2_per_m": 4.75,
+        "victims_found": 3,
+        "all_victims_step": 155
+      },
+      "distance_saving_vs_nearest_pct": 23.87
+    },
+    {
+      "map_id": 23,
+      "seed": 1023,
+      "random": {
+        "coverage_pct": 38.59,
+        "distance_m": 184.23,
+        "steps": 320,
+        "sharp_turns": 22,
+        "ee_m2_per_m": 1.09,
+        "victims_found": 2,
+        "all_victims_step": null
+      },
+      "nearest": {
+        "coverage_pct": 98.61,
+        "distance_m": 120.74,
+        "steps": 210,
+        "sharp_turns": 8,
+        "ee_m2_per_m": 4.26,
+        "victims_found": 3,
+        "all_victims_step": 135
+      },
+      "utility": {
+        "coverage_pct": 98.61,
+        "distance_m": 92.39,
+        "steps": 162,
+        "sharp_turns": 3,
+        "ee_m2_per_m": 5.57,
+        "victims_found": 3,
+        "all_victims_step": 73
+      },
+      "distance_saving_vs_nearest_pct": 23.48
+    },
+    {
+      "map_id": 24,
+      "seed": 1024,
+      "random": {
+        "coverage_pct": 85.8,
+        "distance_m": 188.17,
+        "steps": 320,
+        "sharp_turns": 19,
+        "ee_m2_per_m": 2.4,
+        "victims_found": 3,
+        "all_victims_step": 224
+      },
+      "nearest": {
+        "coverage_pct": 98.53,
+        "distance_m": 120.24,
+        "steps": 209,
+        "sharp_turns": 5,
+        "ee_m2_per_m": 4.31,
+        "victims_found": 3,
+        "all_victims_step": 136
+      },
+      "utility": {
+        "coverage_pct": 98.77,
+        "distance_m": 124.07,
+        "steps": 215,
+        "sharp_turns": 3,
+        "ee_m2_per_m": 4.19,
+        "victims_found": 3,
+        "all_victims_step": 133
+      },
+      "distance_saving_vs_nearest_pct": -3.19
+    },
+    {
+      "map_id": 25,
+      "seed": 1025,
+      "random": {
+        "coverage_pct": 54.92,
+        "distance_m": 180.5,
+        "steps": 320,
+        "sharp_turns": 25,
+        "ee_m2_per_m": 1.58,
+        "victims_found": 2,
+        "all_victims_step": null
+      },
+      "nearest": {
+        "coverage_pct": 98.51,
+        "distance_m": 117.41,
+        "steps": 205,
+        "sharp_turns": 3,
+        "ee_m2_per_m": 4.37,
+        "victims_found": 3,
+        "all_victims_step": 78
+      },
+      "utility": {
+        "coverage_pct": 98.51,
+        "distance_m": 99.25,
+        "steps": 172,
+        "sharp_turns": 4,
+        "ee_m2_per_m": 5.17,
+        "victims_found": 3,
+        "all_victims_step": 139
+      },
+      "distance_saving_vs_nearest_pct": 15.47
+    },
+    {
+      "map_id": 26,
+      "seed": 1026,
+      "random": {
+        "coverage_pct": 78.25,
+        "distance_m": 186.3,
+        "steps": 320,
+        "sharp_turns": 23,
+        "ee_m2_per_m": 2.21,
+        "victims_found": 3,
+        "all_victims_step": 252
+      },
+      "nearest": {
+        "coverage_pct": 98.76,
+        "distance_m": 142.95,
+        "steps": 242,
+        "sharp_turns": 5,
+        "ee_m2_per_m": 3.63,
+        "victims_found": 3,
+        "all_victims_step": 89
+      },
+      "utility": {
+        "coverage_pct": 98.81,
+        "distance_m": 113.57,
+        "steps": 194,
+        "sharp_turns": 1,
+        "ee_m2_per_m": 4.57,
+        "victims_found": 3,
+        "all_victims_step": 80
+      },
+      "distance_saving_vs_nearest_pct": 20.55
+    },
+    {
+      "map_id": 27,
+      "seed": 1027,
+      "random": {
+        "coverage_pct": 59.26,
+        "distance_m": 188.99,
+        "steps": 320,
+        "sharp_turns": 25,
+        "ee_m2_per_m": 1.64,
+        "victims_found": 1,
+        "all_victims_step": null
+      },
+      "nearest": {
+        "coverage_pct": 98.66,
+        "distance_m": 110.9,
+        "steps": 187,
+        "sharp_turns": 2,
+        "ee_m2_per_m": 4.65,
+        "victims_found": 3,
+        "all_victims_step": 179
+      },
+      "utility": {
+        "coverage_pct": 98.56,
+        "distance_m": 131.57,
+        "steps": 230,
+        "sharp_turns": 1,
+        "ee_m2_per_m": 3.91,
+        "victims_found": 3,
+        "all_victims_step": 227
+      },
+      "distance_saving_vs_nearest_pct": -18.64
+    },
+    {
+      "map_id": 28,
+      "seed": 1028,
+      "random": {
+        "coverage_pct": 63.47,
+        "distance_m": 182.16,
+        "steps": 320,
+        "sharp_turns": 29,
+        "ee_m2_per_m": 1.81,
+        "victims_found": 2,
+        "all_victims_step": null
+      },
+      "nearest": {
+        "coverage_pct": 98.6,
+        "distance_m": 127.02,
+        "steps": 218,
+        "sharp_turns": 6,
+        "ee_m2_per_m": 4.03,
+        "victims_found": 3,
+        "all_victims_step": 116
+      },
+      "utility": {
+        "coverage_pct": 98.55,
+        "distance_m": 121.9,
+        "steps": 209,
+        "sharp_turns": 2,
+        "ee_m2_per_m": 4.19,
+        "victims_found": 3,
+        "all_victims_step": 128
+      },
+      "distance_saving_vs_nearest_pct": 4.03
+    },
+    {
+      "map_id": 29,
+      "seed": 1029,
+      "random": {
+        "coverage_pct": 62.07,
+        "distance_m": 186.51,
+        "steps": 320,
+        "sharp_turns": 20,
+        "ee_m2_per_m": 1.75,
+        "victims_found": 1,
+        "all_victims_step": null
+      },
+      "nearest": {
+        "coverage_pct": 98.62,
+        "distance_m": 103.1,
+        "steps": 183,
+        "sharp_turns": 1,
+        "ee_m2_per_m": 5.03,
+        "victims_found": 3,
+        "all_victims_step": 174
+      },
+      "utility": {
+        "coverage_pct": 98.57,
+        "distance_m": 93.44,
+        "steps": 167,
+        "sharp_turns": 1,
+        "ee_m2_per_m": 5.55,
+        "victims_found": 3,
+        "all_victims_step": 131
+      },
+      "distance_saving_vs_nearest_pct": 9.37
+    },
+    {
+      "map_id": 30,
+      "seed": 1030,
+      "random": {
+        "coverage_pct": 77.79,
+        "distance_m": 186.1,
+        "steps": 320,
+        "sharp_turns": 27,
+        "ee_m2_per_m": 2.21,
+        "victims_found": 3,
+        "all_victims_step": 252
+      },
+      "nearest": {
+        "coverage_pct": 98.58,
+        "distance_m": 130.05,
+        "steps": 222,
+        "sharp_turns": 5,
+        "ee_m2_per_m": 4.0,
+        "victims_found": 3,
+        "all_victims_step": 114
+      },
+      "utility": {
+        "coverage_pct": 98.63,
+        "distance_m": 120.36,
+        "steps": 208,
+        "sharp_turns": 2,
+        "ee_m2_per_m": 4.33,
+        "victims_found": 3,
+        "all_victims_step": 130
+      },
+      "distance_saving_vs_nearest_pct": 7.45
+    }
+  ]
+}
